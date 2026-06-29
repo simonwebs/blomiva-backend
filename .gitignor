@@ -1,0 +1,113 @@
+# =========================
+# Go
+# =========================
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.coverprofile
+coverage.out
+coverage.html
+
+# Go workspace
+go.work.sum
+
+# Build directories
+bin/
+build/
+dist/
+tmp/
+
+# =========================
+# Environment Files
+# =========================
+.env
+.env.*
+!.env.example
+
+development.env
+staging.env
+production.env
+
+development.env.local
+staging.env.local
+production.env.local
+
+# Alternative names
+.env.development
+.env.staging
+.env.production
+
+# Settings / Secrets
+config.local.*
+secrets.*
+*.key
+*.pem
+*.crt
+*.p12
+
+# =========================
+# Logs
+# =========================
+logs/
+log/
+*.log
+
+# =========================
+# Database
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Temporary Files
+# =========================
+tmp/
+temp/
+.cache/
+
+# =========================
+# Operating System
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Test Results
+# =========================
+coverage/
+coverage.out
+
+# =========================
+# Air (Live Reload)
+# =========================
+.air/
+.air.toml.local
+
+# =========================
+# Delve Debugger
+# =========================
+__debug_bin
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Misc
+# =========================
+*.bak
+*.tmp
